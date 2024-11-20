@@ -28,7 +28,7 @@ const HowItWorks = () => {
   }, []);
 
   return (
-    <section className="common-padding">
+    <section id='contact' className="common-padding">
       <div className="screen-max-width">
 
         <div className="flex flex-col items-center">
