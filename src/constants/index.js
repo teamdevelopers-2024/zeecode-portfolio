@@ -9,7 +9,43 @@ import {
   yellowImg,
 } from "../utils";
 
-export const navLists = ["Home", "Services", "About Us", "Contact Us"];
+import {  
+  card1,
+  card2,
+  card3,
+  card4,
+  card5,
+  card6,
+  benefitIcon1,
+  benefitIcon2,
+  benefitIcon3,
+  benefitIcon4,
+  benefitImage2,
+} from "../../public/assets"
+
+// export const navLists = ["Home", "Services", "About Us", "Contact Us"];
+export const navLists = [
+  {
+    id: "0",
+    title: "Home",
+    url: "#features",
+  },
+  {
+    id: "1",
+    title: "Services",
+    url: "#services",
+  },
+  {
+    id: "2",
+    title: "About Us",
+    url: "#about",
+  },
+  {
+    id: "3",
+    title: "Contact Us",
+    url: "#contactus",
+  }
+];
 
 export const hightlightsSlides = [
   {
@@ -84,4 +120,57 @@ export const footerLinks = [
   "Sales Policy",
   "Legal",
   "Site Map",
+];
+
+export const benefits = [
+  {
+    id: "0",
+    title: "Web Development",
+    text: "Building seamless, innovative websites with Zeecode Solutions. Let’s turn your online presence into a powerful experience!",
+    backgroundUrl: card1,
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "1",
+    title: "App Development",
+    text: "Crafting innovative apps that bring your vision to life with precision and efficiency.",
+    backgroundUrl: card2,
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Digital Marketing",
+    text: "Elevate your brand with tailored digital marketing strategies that drive results and maximize your online presence.",
+    backgroundUrl: card3,
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "3",
+    title: "Web Designing",
+    text:   "Transforming ideas into stunning websites. Build your online presence with creativity and precision.",
+    backgroundUrl: card4,
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "4",
+    title: "Start-up Business Strategy",
+    text: "Empowering startups with strategic insights and tailored solutions to drive growth and success.",
+    backgroundUrl: card5,
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "5",
+    title: "CRM Development",
+    text: "Amplify your brand’s reach with targeted LinkedIn campaigns that drive engagement and build connections.",
+    backgroundUrl: card6,
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+  },
 ];
