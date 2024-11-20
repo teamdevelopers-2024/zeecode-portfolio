@@ -43,7 +43,7 @@ export const navLists = [
   {
     id: "3",
     title: "Contact Us",
-    url: "#contactus",
+    url: "#contact",
   }
 ];
 
