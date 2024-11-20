@@ -38,20 +38,20 @@ const Features = () => {
   }, []);
 
   return (
-    <section id="services" className="h-full common-padding bg-zinc relative overflow-hidden">
-      <div className="screen-max-wdith">
-        <div className="mb-12 ml-10 w-full">
+    <section id="services" className=" bg-zinc">
+      <div className="">
+        <div className="mb-12 ml-10 w-auto">
           <h1 id="features_title" className="section-heading">
           What We Deliver
           </h1>
         </div>
 
-        <div className="flex flex-col justify-center items-center overflow-hidden">
-          <div className="mt-32 mb-24 pl-24"></div>
+        <div className="flex flex-col justify-center items-center">
+          <div className="pl-24"></div>
 
           <div className="flex-center flex-col sm:px-10">
-            <div className="relative h-[50vh] w-full flex items-center">
-              <div className="flex flex-wrap gap-10 mb-15">
+            <div className="pl-5 pr-5 md:p-0 lg:p-0 relative h-auto w-full flex items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-15">
                 {benefits.map((item) => (
                   <div
                     className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
@@ -101,10 +101,6 @@ const Features = () => {
             </div>
 
             <div className="flex flex-col w-full relative">
-              <div className="feature-video-container">
-                <div className="overflow-hidden flex-1 h-[50vh]"></div>
-              </div>
-
               <div className="feature-text-container"></div>
             </div>
           </div>
